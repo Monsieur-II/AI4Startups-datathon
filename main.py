@@ -19,7 +19,6 @@ app.add_middleware(
 )
 
 default_image_url = "http://example.com/default_product.jpg"
-image_prefix_url = "https://monsieur-bucket.s3.eu-north-1.amazonaws.com/afrimash_images/"
 
 
 @app.post("/api/v1/recommendations")
